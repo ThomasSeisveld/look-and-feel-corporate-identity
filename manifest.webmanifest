@@ -1,8 +1,8 @@
 {
- "name": "Your Project Name",
- "short_name": "project-short-name",
+ "name": "Snappthis",
+ "short_name": "Snappthis",
  "scope": "/",
- "start_url": ".",
+ "start_url": "https://thomasseisveld.github.io/look-and-feel-corporate-identity/",
  "icons": [
   {
    "src": "public/apple-touch-icon.png",
