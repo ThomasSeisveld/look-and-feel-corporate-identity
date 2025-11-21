@@ -4,7 +4,7 @@
     right: 0;
     bottom: 0;
     height: 60px;
-    background: #172F3B;
+    background: var(--nav-dark);
     border-top: 1px solid rgba(0,0,0,0.06);
     display: flex;
     justify-content: space-around;
@@ -16,14 +16,13 @@
   .mobile-bottom-nav .mobile-nav-btn {
     background: transparent;
     border: none;
-    background-color: aliceblue;
     border-radius: 12px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     gap: 4px;
-    color: #172F3B;
+    color: #ffffff;
     cursor: pointer;
     padding: 6px;
   }
