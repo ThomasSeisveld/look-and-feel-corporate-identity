@@ -32,4 +32,8 @@
   }
   a#active svg path {
     fill: var(--accent-neutral);
+    
+  }
+  a#search svg path{
+    stroke: var(--accent-neutral);
   }
