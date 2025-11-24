@@ -9,6 +9,6 @@ const yourGroups = [
   ];
 });
 
-function openPopup() {
-    alert("Profile popup opened!");
-}
+// function openPopup() {
+//     alert("Profile popup opened!");
+// }

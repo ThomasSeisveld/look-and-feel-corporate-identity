@@ -7,7 +7,7 @@
     left: 0;
     right: 0;
     bottom: 0;
-    height: 6vh;
+    height: 8vh;
     background: var(--nav-dark);
     display: flex;
     justify-content: space-around;
@@ -27,4 +27,9 @@
     color: var(--white);
     cursor: pointer;
     padding: 6px;
+
+    
+  }
+  a#active svg path {
+    fill: var(--accent-neutral);
   }
