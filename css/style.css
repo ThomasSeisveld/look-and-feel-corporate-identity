@@ -20,8 +20,8 @@ nav {
   bottom: 0;
 
   svg {
-    width: 2.5vh;
-    height: 2.5vh;
+    width: 3vh;
+    height: 3vh;
   }
 }
 
@@ -35,8 +35,8 @@ nav {
   font-size: var(--font-size-largest);
 
   svg {
-    width: 2vh;
-    height: 2vh;
+    width: 3vh;
+    height: 3vh;
   }
 }
 
@@ -133,9 +133,39 @@ nav {
   width: 100%;
 }
 
+ul {
+  padding: 0;
+  width: 100vw;
+  max-width: 400px;
+}
+
 li {
-  align-items: left;
+  padding: 1vh 2vh;
   margin: 1vh 0;
+  height: 6vh;
+  background: var(--secondary-bg-lightest);
+  display: flex;
+  justify-content: left;
+  align-items: center;
+
+  a{
+    text-decoration: none;
+    color: #000;
+    align-items: left;
+    justify-content: left;
+  }
+
+  button{
+    margin-left: auto;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+  }
+  svg{
+    width: 3vh;
+    height: 3vh;
+    fill: var(--secondary-bg-dark);
+  }
 }
 
 /* buttons  */
