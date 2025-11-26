@@ -95,7 +95,7 @@ nav {
 .gallery {
   display: grid;
   margin: 1vh;
-  grid-template-columns: repeat(auto-fit, minmax(25vh, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(45vw, 1fr));
   gap: 0.5vh;
   justify-content: center;
   align-items: center;
@@ -104,7 +104,7 @@ nav {
 .gallery-medium {
   display: grid;
   margin: 1vh;
-  grid-template-columns: repeat(auto-fit, minmax(20vh, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(30vw, 1fr));
   gap: 0.5vh;
   justify-content: center;
   align-items: center;
@@ -113,7 +113,7 @@ nav {
 .gallery-small {
   display: grid;
   margin: 1vh;
-  grid-template-columns: repeat(auto-fit, minmax(13vh, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(20vw, 1fr));
   gap: 0.5vh;
   justify-content: center;
   align-items: center;
